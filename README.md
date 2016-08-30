@@ -7,6 +7,7 @@ Features:
 If the user doesn’t configure any subreddits, show the front page content by default.
 When the user adds/edits/deletes multiple subreddits as topic source, then content page should change the merge all of the contents into a single page for users to scroll/paginate through.
 
+You can select the subreddits that interests you. You can delete them. You can by default, by clicking on central text to get the most popular posts.
 
 ## Running the App:
 
