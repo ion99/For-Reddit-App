@@ -2,9 +2,13 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
     <script type="text/javascript" src="javascript/reddit.js"></script>
-    <script type='text/javascript'>
+    <script type='text/javascript' src="javascript/jquery-ias.min.js"></script>
+    <script type="text/javascript">
       function reddit(){
   $.getJSON("https://www.reddit.com/r/all/.json?limit=100&after=t3_10omtd/ ", function(r) {
     console.log("hai", r.data.children);
@@ -16,39 +20,29 @@
 }
     </script>
   </head>  
- <body>
+  <body>
     <div class="text-center">
       <a href="#" onclick="reddit()"><h3 class="text-center head">For Reddit App</h3></a>
     </div>
-<div class="row">
-  <div class="col-xs-offset-3 col-xs-6">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Subreddits...">
-      <span class="input-group-btn">
-        <button class="add btn btn-secondary" type="click">Add!</button>
-      </span>
-    </div>
-  </div>
-</div> 
+    <div class="row">
+      <div class="col-xs-offset-3 col-xs-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Subreddits...">
+          <span class="input-group-btn">
+            <button class="add btn btn-secondary" type="click">Add!</button>
+          </span>
+        </div>
+      </div>
+    </div> 
     <br>
     <br>
     <div id="subr1"></div>
     <br>
     <hr>
     <div id="main"></div>
-    <div id="post">
-      <div class="post">...</div>
-      <div class="post">...</div>
-    </div>
-    <div id="pagination">
-    <a href="/page2/" class="next">next</a>
-</div>
-      <br>
-      <br>
-    
-    <footer class="footer">Ion Gorincioi © 2016. All Rights Reserved :)</footer>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-infinitescroll/2.1.0/jquery.infinitescroll.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+    <div id="post"></div>
+    <br>
+    <br>  
+    <footer class="footer">Ion Gorincioi © 2016. All Rights Reserved :)</footer>  
   </body>
 </html>

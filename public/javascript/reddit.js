@@ -1,14 +1,9 @@
-  var ias = jQuery.ias({
-  container:  '#posts',
-  item:       '.post',
-  pagination: '#pagination',
-  next:       '.next'
-});
+
        
 $(document).ready(function(){
 //by default:
-  
-  
+
+
   function reddit(){
     $.getJSON("https://www.reddit.com/r/all/.json?limit=100&after=t3_10omtd/ ", function(r) {
       console.log("hai", r.data.children);

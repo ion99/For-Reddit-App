@@ -10,6 +10,7 @@ p {
   padding-left: 1em;
   font-size: 1.2em;
 }
+
 span.subr {
   color: #F7F5F2;
   padding-right: 1em;
@@ -22,11 +23,8 @@ span.subr {
 
 .head {
   font-family: monaco,Consolas,Lucida Console,monospace;
-  color: #028BED;
-  
+  color: #028BED; 
 }
-
-
 
 .footer {
    position: fixed;
