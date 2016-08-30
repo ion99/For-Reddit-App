@@ -1,16 +1,29 @@
 html, body {
-  background-color: #25264D;
+  background-color: #B3E4F5;
   max-width: 100%;
   overflow-x: hidden;
 }
 
 p {
+  color: #736D71;
+  adding-right: 1em;
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+span.subr {
   color: #F7F5F2;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.name {
+  color: #F59DDD;
+  font-size: 1.4em;
 }
 
 .head {
   font-family: monaco,Consolas,Lucida Console,monospace;
-  color: #F7F5F2;
+  color: #028BED;
+  
 }
 
 
@@ -21,7 +34,7 @@ p {
    bottom: 0px;
    height: 17px;
    width: 100%;
-   background-color: #DE751F;
+   background-color: #B3BABA;
    color: white;
    margin: auto;
    text-align: center;
