@@ -1,0 +1,28 @@
+html, body {
+  background-color: #25264D;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  color: #F7F5F2;
+}
+
+.head {
+  font-family: monaco,Consolas,Lucida Console,monospace;
+  color: #F7F5F2;
+}
+
+
+
+.footer {
+   position: fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 17px;
+   width: 100%;
+   background-color: #DE751F;
+   color: white;
+   margin: auto;
+   text-align: center;
+}
