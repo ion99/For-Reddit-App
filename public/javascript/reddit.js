@@ -48,12 +48,12 @@ var glob;
     $(this).remove();
   })
 
-  // $(window).scroll(function() {
-  //   var y = $("div#post>div").className;
-  //   console.log("yyyy", y);
-  //   reddit1(y);
-  //   $("#post").apend(result1);
+  $(document).on("scroll", "div#post:last-child", function() {
+    var y = $("div#post:last-child").className;
+    console.log("yyyy", y);
+    reddit1(y);
+    $("#post").apend(result1);
 
-  // });
+  });
 
 })
